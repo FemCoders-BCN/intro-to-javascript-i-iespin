@@ -36,7 +36,7 @@ let e = null
 console.log(e)
 
 //undefined
-var f 
+var f = undefined
 console.log(f)
 
 //object
@@ -133,7 +133,7 @@ console.log(o)
 let num1 = 15
 let num2 = 20
 
-let comparision = (15 < 20) //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparision = (num1 < num2) //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparision)
 
 //Ejercicio 13: completa el ejercicio
@@ -141,13 +141,13 @@ console.log(comparision)
 let num3 = 1
 let num3AsString = "1"
 
-let result = (1 > "1") //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+let result = (num3 > num3AsString) //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 
 
 //Ejercicio 14: completa el ejercicio
 
-let result2 = (1 == "1") //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+let result2 = (num3 == num3AsString) //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
 
 //OPERADORES DE CADENAS
